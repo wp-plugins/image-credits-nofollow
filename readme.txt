@@ -15,6 +15,7 @@ Adds credits to the media uploads: Source and source URL. URLs are nofollow by d
 This plugin adds credits to the media uploads: Source and source URL. URLs are nofollow by default, but you have the option to follow them. With a shortcode and various options to display image credits in the posts.
 
 The three display options of the credits are:
+
 * Shortcode: [image-credit] with optional attributes are `sep`, `before` and `after`.
 * Template Tag: `the_image_credits()` with optional parameters are `sep`, `before` and `after`.
 * Display the credits automatically before or after the content.
