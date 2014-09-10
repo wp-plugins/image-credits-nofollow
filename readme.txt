@@ -15,9 +15,9 @@ Adds credits to the media uploads: Source and source URL. URLs are nofollow by d
 This plugin adds credits to the media uploads: Source and source URL. URLs are nofollow by default, but you have the option to follow them. With a shortcode and various options to display image credits in the posts.
 
 The three display options of the credits are:
-- Shortcode: [image-credit] with optional attributes are `sep`, `before` and `after`.
-- Template Tag: `the_image_credits()` with optional parameters are `sep`, `before` and `after`.
-- Display the credits automatically before or after the content.
+* Shortcode: [image-credit] with optional attributes are `sep`, `before` and `after`.
+* Template Tag: `the_image_credits()` with optional parameters are `sep`, `before` and `after`.
+* Display the credits automatically before or after the content.
 
 There is a setting page in SETTINGS / IMAGE CREDITS that allows to setup the automatic credit display, including the HTML definitions.
 
@@ -55,7 +55,8 @@ Please use with WordPress MultiSite at your own risk, as it has not been tested.
 == Frequently Asked Questions ==
 
 = What is IMAGE CREDITS NOFOLLOW good for? =
-This plugin exports all entries of SeoCrawlytics and gives you the option to delete the entries that are older than 1 month.
+* This plugin adds the Source Name, Source URL and the option to follow the Source URL link to the media uploaded in WordPress.
+* The three display options of the credits are: Shortcode, Template Tag or let the plugin display the credits automatically before or after the content.
 
 = Does IMAGE CREDITS NOFOLLOW make changes to the database? =
 The plugin doesn't make any changes to the database, but it adds new META-DATA for the MEDIA you edit. Every time you add a Source Name, Source URL and the option to follow the Source URL, this is added as metadata to the database.
