@@ -3,7 +3,7 @@
 Plugin Name: Image Credits Nofollow
 Plugin URI: http://apasionados.es
 Description: Adds credits to the media uploads: Source and source URL. URLs are nofollow by default, but you have the option to follow them. With a shortcode and various options to display image credits in the posts.
-Version: 1.0
+Version: 1.1
 Author: Apasionados.es
 Author URI: http://apasionados.es
 License: GPLv3
@@ -224,17 +224,17 @@ class ImageCreditsNofollowPlugin {
 	}
 
 	function filter_content($content) {
-		$credits = $this->the_image_credits();
-
-		if ($this->display_option(IMAGE_CREDIT_BEFORE_CONTENT)) {
-			$content = $credits . $content;
-		}
-
-		if ($this->display_option(IMAGE_CREDIT_AFTER_CONTENT)) {
-			$content = $content . $credits;
-		}
-
-	    return $content;
+		if ( is_single() ) {
+			$credits = $this->the_image_credits();
+	
+			if ($this->display_option(IMAGE_CREDIT_BEFORE_CONTENT)) {
+				$content = $credits . $content;
+			}
+			if ($this->display_option(IMAGE_CREDIT_AFTER_CONTENT)) {
+				$content = $content . $credits;
+			}
+		}	
+			return $content;
 	}
 }
 
