@@ -4,7 +4,7 @@ Donate link: http://apasionados.es/
 Tags: image, media, credit, credits, image credits, image credit, licence, licences, license, licenses, Author credits, Image credits, Photo credits
 Requires at least: 3.0.1
 Tested up to: 4.0.0
-Stable tag: 1.0
+Stable tag: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -82,6 +82,9 @@ Of course we do. ;-)
 
 == Changelog ==
 
+= 1.1 =
+* Update to not show image credits in posts excerpts. Now the image credits are only shown on single pages when selected show before or after text.
+
 = 1.0 =
 * First stable release.
 
@@ -90,9 +93,34 @@ Of course we do. ;-)
 
 == Upgrade Notice ==
 
-= 1.0 =
-First stable release.
+= 1.1 =
+* Update to not show image credits in posts excerpts. 
 
 == Contact ==
 
 For further information please send us an [email](http://apasionados.es/contacto/index.php?desde=wordpress-org-imgecreditsnofollow-contact).
+
+
+== Translating WordPress Plugins ==
+
+The steps involved in translating a plugin are:
+
+1. Run a tool over the code to produce a POT file (Portable Object Template), simply a list of all localizable text. Our plugins allready havae this POT file in the /languages/ folder.
+1. Use a plain text editor or a special localization tool to generate a translation for each piece of text. This produces a PO file (Portable Object). The only difference between a POT and PO file is that the PO file contains translations.
+1. Compile the PO file to produce a MO file (Machine Object), which can then be used in the theme or plugin.
+
+In order to translate a plugin you will need a special software tool like [poEdit](http://www.poedit.net/), which is a cross-platform graphical tool that is available for Windows, Linux, and Mac OS X.
+
+The naming of your PO and MO files is very important and must match the desired locale. The naming convention is: `language_COUNTRY.po` and plugins have an additional naming convention whereby the plugin name is added to the filename: `pluginname-fr_FR.po`
+
+That is, the plugin name name must be the language code followed by an underscore, followed by a code for the country (in uppercase). If the encoding of the file is not UTF-8 then the encoding must be specified. 
+
+For example:
+
+* en_US – US English
+* en_UK – UK English
+* es_ES – Spanish from Spain
+* fr_FR – French from France
+* zh_CN – Simplified Chinese
+
+A list of language codes can be found [here](http://en.wikipedia.org/wiki/ISO_639), and country codes can be found [here](http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2). A full list of encoding names can also be found at [IANA](http://www.iana.org/assignments/character-sets).
