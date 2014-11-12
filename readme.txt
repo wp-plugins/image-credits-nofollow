@@ -41,7 +41,7 @@ This first release is avaliable in English and Spanish. In the languages folder 
 If you would like the plugin in your language and you're good at translating, please drop us a line at [Contact us](http://apasionados.es/contacto/index.php?desde=wordpress-org-imgecreditsnofollow-home).
 
 = Further Reading =
-You can access the description of the plugin in Spanish at: [Image Credits Nofollow en castellano](http://apasionados.es/blog/).
+You can access the description of the plugin in Spanish at: [Image Credits Nofollow en castellano](http://apasionados.es/blog/creditos-imagenes-enlaces-nofollow-plugin-wordpress-2878/).
 
 
 == Installation ==
