@@ -31,6 +31,7 @@ The main difeerence with the "Better Image Credits" plugin is that the Source UR
 
 = What can I do with this plugin? =
 This plugin adds the Source Name, Source URL and the option to follow the Source URL link to the media uploaded in WordPress.
+And this image credits can be displayed in three different forms.
 
 = How do I configure the plugin? =
 Please navigate to SETTINGS / IMAGE CREDITS and choose options or fill in the data. Everything is self-explaining, incluiding help texts.
@@ -70,6 +71,12 @@ You can simply activate, deactivate or delete it in your plugin management secti
 
 = Are there any known incompatibilities? =
 Please use it with WordPress MultiSite at your own risk, as it has not been tested.
+
+= Does it work with image galleries? =
+Unfortunately it doesn't work with image galleries. Only with media inserted in posts / pages and the thumbnails.
+
+= Are you planning to make it work with image galleries? =
+We normally don't use image galleries, so maybe in the future we develop this function, but it's not one of our priorities. Sorry :-).
 
 = Do you make use of IMAGE CREDITS NOFOLLOW yourself? = 
 Of course we do. ;-)
