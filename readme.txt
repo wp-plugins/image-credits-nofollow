@@ -37,7 +37,11 @@ And this image credits can be displayed in three different forms.
 Please navigate to SETTINGS / IMAGE CREDITS and choose options or fill in the data. Everything is self-explaining, incluiding help texts.
 
 = IMAGE CREDITS NOFOLLOW in your Language! =
-This first release is avaliable in English and Spanish. In the languages folder we have included the necessary files to translate this plugin.
+This first release is avaliable in English and Spanish (image-credits-nofollow-es_ES). In the languages folder we have included the necessary files to translate this plugin.
+
+Other available languages:
+
+* Turkish translation by Burak Demir (image-credits-nofollow-tr_TR).
 
 If you would like the plugin in your language and you're good at translating, please drop us a line at [Contact us](http://apasionados.es/contacto/index.php?desde=wordpress-org-imgecreditsnofollow-home).
 
