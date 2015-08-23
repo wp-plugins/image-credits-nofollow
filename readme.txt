@@ -1,7 +1,7 @@
 === Image Credits nofollow ===
 Contributors: apasionados, netconsulting
 Donate link: http://apasionados.es/
-Tags: image, media, credit, credits, image credits, image credit, licence, licences, license, licenses, Author credits, Image credits, Photo credits
+Tags: image, media, credit, credits, image credits, image credit, licence, licences, license, licenses, Author credits, Image credits, Photo credits, no follow, nofollow
 Requires at least: 3.0.1
 Tested up to: 4.3
 Stable tag: 1.1
@@ -12,7 +12,7 @@ Adds credits to the media uploads: Source and source URL. URLs are nofollow by d
 
 == Description ==
 
-This plugin adds credits to the media uploads: Source and source URL. URLs are nofollow by default, but you have the option to follow them. With a shortcode and various options to display image credits in the posts.
+This plugin adds credits to the media uploads: Source and source URL. URLs are nofollow (no follow) by default, but you have the option to follow them. With a shortcode and various options to display image credits in the posts.
 
 The three display options of the credits are:
 
