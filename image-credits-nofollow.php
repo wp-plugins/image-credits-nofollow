@@ -179,6 +179,18 @@ class ImageCreditsNofollowPlugin {
 				}
 			}
 		}
+		
+		// Next look for galleries
+		if ( get_post_gallery() ) :
+		$matches = get_post_gallery( $post->ID, false );
+		$matches=explode(',',$matches['ids']);
+
+			foreach ($matches as $id) {
+				if (!in_array($id, $attachment_ids)) {
+					$attachment_ids[] = $id;
+				}
+			}
+		endif;    
 
 		// Go through all our attachments IDs and generate credits
 		foreach ($attachment_ids as $id) {
